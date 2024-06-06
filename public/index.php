@@ -3,10 +3,10 @@ $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
     case '/' :
-        require __DIR__ . '/../templates/home.html';
+        require __DIR__ . '/../src/home.php';
         break;
     case '' :
-        require __DIR__ . '/../templates/home.html';
+        require __DIR__ . '/../src/home.php';
         break;
     case '/login' :
         require __DIR__ . '/../templates/login.html';
